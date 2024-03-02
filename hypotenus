@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Hypotenus{
+    public static void main(String[] args){
+        int a,b;
+        double c;
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("bir a kenarı giriniz:" );
+        a= scanner.nextInt();
+        System.out.println("bir b kenarı giriniz:");
+        b= scanner.nextInt();
+        c= Math.sqrt((a*a)+(b*b));
+        System.out.println("Hypotenus is:" +c);
+        
+    }
+}
